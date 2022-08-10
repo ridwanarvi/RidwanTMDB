@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MovieListScreenView.swift
 //  RidwanMovieDatabase
 //
 //  Created by Ridwan Arvihafiz Bakri on 10/08/22.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MovieListScreenView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MovieListScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MovieListScreenView()
     }
 }

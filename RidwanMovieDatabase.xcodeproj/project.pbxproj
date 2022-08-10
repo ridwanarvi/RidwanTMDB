@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0DD4BB5028A38367000D27F9 /* RidwanMovieDatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */; };
-		0DD4BB5228A38367000D27F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5128A38367000D27F9 /* ContentView.swift */; };
 		0DD4BB5428A3836A000D27F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5328A3836A000D27F9 /* Assets.xcassets */; };
 		0DD4BB5728A3836A000D27F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5628A3836A000D27F9 /* Preview Assets.xcassets */; };
 		0DD4BB6128A3836A000D27F9 /* RidwanMovieDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6028A3836A000D27F9 /* RidwanMovieDatabaseTests.swift */; };
 		0DD4BB6B28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6A28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift */; };
 		0DD4BB6D28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */; };
+		0DD4BB8828A38A1D000D27F9 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB8728A38A1D000D27F9 /* HomeScreenView.swift */; };
+		0DD4BB8A28A38BDC000D27F9 /* MovieServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB8928A38BDC000D27F9 /* MovieServices.swift */; };
+		0DD4BB8C28A38C12000D27F9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB8B28A38C12000D27F9 /* Movie.swift */; };
+		0DD4BB8E28A38C4B000D27F9 /* DataFetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB8D28A38C4B000D27F9 /* DataFetchPhase.swift */; };
+		0DD4BB9028A38C60000D27F9 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB8F28A38C60000D27F9 /* MovieSection.swift */; };
+		0DD4BB9228A38C95000D27F9 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB9128A38C95000D27F9 /* MovieStore.swift */; };
+		0DD4BB9428A38CDD000D27F9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB9328A38CDD000D27F9 /* Helper.swift */; };
+		0DD4BB9628A38F41000D27F9 /* MovieListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB9528A38F41000D27F9 /* MovieListScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		0DD4BB4C28A38367000D27F9 /* RidwanMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidwanMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseApp.swift; sourceTree = "<group>"; };
-		0DD4BB5128A38367000D27F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DD4BB5328A3836A000D27F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD4BB5628A3836A000D27F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DD4BB5C28A3836A000D27F9 /* RidwanMovieDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidwanMovieDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		0DD4BB6628A3836A000D27F9 /* RidwanMovieDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidwanMovieDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD4BB6A28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseUITests.swift; sourceTree = "<group>"; };
 		0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DD4BB8728A38A1D000D27F9 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		0DD4BB8928A38BDC000D27F9 /* MovieServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServices.swift; sourceTree = "<group>"; };
+		0DD4BB8B28A38C12000D27F9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0DD4BB8D28A38C4B000D27F9 /* DataFetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchPhase.swift; sourceTree = "<group>"; };
+		0DD4BB8F28A38C60000D27F9 /* MovieSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
+		0DD4BB9128A38C95000D27F9 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		0DD4BB9328A38CDD000D27F9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0DD4BB9528A38F41000D27F9 /* MovieListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +108,12 @@
 		0DD4BB4E28A38367000D27F9 /* RidwanMovieDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				0DD4BB7F28A3847A000D27F9 /* Screens */,
 				0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */,
-				0DD4BB5128A38367000D27F9 /* ContentView.swift */,
 				0DD4BB5328A3836A000D27F9 /* Assets.xcassets */,
+				0DD4BB7D28A383D5000D27F9 /* Helpers */,
+				0DD4BB7C28A383C1000D27F9 /* Models */,
+				0DD4BB7B28A383BA000D27F9 /* Services */,
 				0DD4BB5528A3836A000D27F9 /* Preview Content */,
 			);
 			path = RidwanMovieDatabase;
@@ -125,6 +142,114 @@
 				0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */,
 			);
 			path = RidwanMovieDatabaseUITests;
+			sourceTree = "<group>";
+		};
+		0DD4BB7928A383B1000D27F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DD4BB7B28A383BA000D27F9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8928A38BDC000D27F9 /* MovieServices.swift */,
+				0DD4BB9128A38C95000D27F9 /* MovieStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0DD4BB7C28A383C1000D27F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8B28A38C12000D27F9 /* Movie.swift */,
+				0DD4BB8D28A38C4B000D27F9 /* DataFetchPhase.swift */,
+				0DD4BB8F28A38C60000D27F9 /* MovieSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DD4BB7D28A383D5000D27F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB9328A38CDD000D27F9 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0DD4BB7E28A383F0000D27F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DD4BB7F28A3847A000D27F9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8228A384A5000D27F9 /* MovieDetailScreen */,
+				0DD4BB8128A3849B000D27F9 /* MovieListScreen */,
+				0DD4BB8028A38487000D27F9 /* HomeScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0DD4BB8028A38487000D27F9 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8628A384C3000D27F9 /* ViewModels */,
+				0DD4BB8528A384C0000D27F9 /* Views */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		0DD4BB8128A3849B000D27F9 /* MovieListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8428A384BA000D27F9 /* Views */,
+				0DD4BB8328A384B3000D27F9 /* ViewModels */,
+			);
+			path = MovieListScreen;
+			sourceTree = "<group>";
+		};
+		0DD4BB8228A384A5000D27F9 /* MovieDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB7E28A383F0000D27F9 /* ViewModels */,
+				0DD4BB7928A383B1000D27F9 /* Views */,
+			);
+			path = MovieDetailScreen;
+			sourceTree = "<group>";
+		};
+		0DD4BB8328A384B3000D27F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DD4BB8428A384BA000D27F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB9528A38F41000D27F9 /* MovieListScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DD4BB8528A384C0000D27F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB8728A38A1D000D27F9 /* HomeScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DD4BB8628A384C3000D27F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD4BB5228A38367000D27F9 /* ContentView.swift in Sources */,
+				0DD4BB8E28A38C4B000D27F9 /* DataFetchPhase.swift in Sources */,
+				0DD4BB9628A38F41000D27F9 /* MovieListScreenView.swift in Sources */,
 				0DD4BB5028A38367000D27F9 /* RidwanMovieDatabaseApp.swift in Sources */,
+				0DD4BB9028A38C60000D27F9 /* MovieSection.swift in Sources */,
+				0DD4BB8A28A38BDC000D27F9 /* MovieServices.swift in Sources */,
+				0DD4BB8C28A38C12000D27F9 /* Movie.swift in Sources */,
+				0DD4BB8828A38A1D000D27F9 /* HomeScreenView.swift in Sources */,
+				0DD4BB9228A38C95000D27F9 /* MovieStore.swift in Sources */,
+				0DD4BB9428A38CDD000D27F9 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
