@@ -11,7 +11,7 @@ import SwiftUI
 struct RidwanMovieDatabaseApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeScreenView()
+            HomeScreen()
         }
     }
 }

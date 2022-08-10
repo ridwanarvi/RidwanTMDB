@@ -25,29 +25,6 @@ class MovieStore: MovieService {
         return movieResponse.results
     }
     
-    func fetchMovie(id: Int) async throws -> Movie {
-        guard let url = URL(string: "\(baseAPIURL)/movie/\(id)") else {
-            throw MovieError.invalidEndpoint
-        }
-        return try await self.loadURLAndDecode(url: url, params: [
-            "append_to_response": "videos,credits"
-        ])
-    }
-    
-    func searchMovie(query: String) async throws -> [Movie] {
-        guard let url = URL(string: "\(baseAPIURL)/search/movie") else {
-            throw MovieError.invalidEndpoint
-        }
-        let movieResponse: MovieResponse = try await self.loadURLAndDecode(url: url, params: [
-            "language": "en-US",
-            "include_adult": "false",
-            "region": "US",
-            "query": query
-        ])
-        
-        return movieResponse.results
-    }
-    
     private func loadURLAndDecode<D: Decodable>(url: URL, params: [String: String]? = nil) async throws -> D {
         guard var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
             throw MovieError.invalidEndpoint
