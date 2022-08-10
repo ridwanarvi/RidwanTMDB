@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD4BB5028A38367000D27F9 /* RidwanMovieDatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */; };
+		0DD4BB5228A38367000D27F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5128A38367000D27F9 /* ContentView.swift */; };
+		0DD4BB5428A3836A000D27F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5328A3836A000D27F9 /* Assets.xcassets */; };
+		0DD4BB5728A3836A000D27F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4BB5628A3836A000D27F9 /* Preview Assets.xcassets */; };
+		0DD4BB6128A3836A000D27F9 /* RidwanMovieDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6028A3836A000D27F9 /* RidwanMovieDatabaseTests.swift */; };
+		0DD4BB6B28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6A28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift */; };
+		0DD4BB6D28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD4BB5D28A3836A000D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD4BB4428A38367000D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD4BB4B28A38367000D27F9;
+			remoteInfo = RidwanMovieDatabase;
+		};
+		0DD4BB6728A3836A000D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD4BB4428A38367000D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD4BB4B28A38367000D27F9;
+			remoteInfo = RidwanMovieDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD4BB4C28A38367000D27F9 /* RidwanMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidwanMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseApp.swift; sourceTree = "<group>"; };
+		0DD4BB5128A38367000D27F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DD4BB5328A3836A000D27F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DD4BB5628A3836A000D27F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DD4BB5C28A3836A000D27F9 /* RidwanMovieDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidwanMovieDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4BB6028A3836A000D27F9 /* RidwanMovieDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseTests.swift; sourceTree = "<group>"; };
+		0DD4BB6628A3836A000D27F9 /* RidwanMovieDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidwanMovieDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4BB6A28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseUITests.swift; sourceTree = "<group>"; };
+		0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidwanMovieDatabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD4BB4928A38367000D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB5928A3836A000D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB6328A3836A000D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD4BB4328A38367000D27F9 = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB4E28A38367000D27F9 /* RidwanMovieDatabase */,
+				0DD4BB5F28A3836A000D27F9 /* RidwanMovieDatabaseTests */,
+				0DD4BB6928A3836A000D27F9 /* RidwanMovieDatabaseUITests */,
+				0DD4BB4D28A38367000D27F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD4BB4D28A38367000D27F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB4C28A38367000D27F9 /* RidwanMovieDatabase.app */,
+				0DD4BB5C28A3836A000D27F9 /* RidwanMovieDatabaseTests.xctest */,
+				0DD4BB6628A3836A000D27F9 /* RidwanMovieDatabaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD4BB4E28A38367000D27F9 /* RidwanMovieDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB4F28A38367000D27F9 /* RidwanMovieDatabaseApp.swift */,
+				0DD4BB5128A38367000D27F9 /* ContentView.swift */,
+				0DD4BB5328A3836A000D27F9 /* Assets.xcassets */,
+				0DD4BB5528A3836A000D27F9 /* Preview Content */,
+			);
+			path = RidwanMovieDatabase;
+			sourceTree = "<group>";
+		};
+		0DD4BB5528A3836A000D27F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB5628A3836A000D27F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DD4BB5F28A3836A000D27F9 /* RidwanMovieDatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB6028A3836A000D27F9 /* RidwanMovieDatabaseTests.swift */,
+			);
+			path = RidwanMovieDatabaseTests;
+			sourceTree = "<group>";
+		};
+		0DD4BB6928A3836A000D27F9 /* RidwanMovieDatabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4BB6A28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift */,
+				0DD4BB6C28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift */,
+			);
+			path = RidwanMovieDatabaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD4BB4B28A38367000D27F9 /* RidwanMovieDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4BB7028A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabase" */;
+			buildPhases = (
+				0DD4BB4828A38367000D27F9 /* Sources */,
+				0DD4BB4928A38367000D27F9 /* Frameworks */,
+				0DD4BB4A28A38367000D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RidwanMovieDatabase;
+			productName = RidwanMovieDatabase;
+			productReference = 0DD4BB4C28A38367000D27F9 /* RidwanMovieDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD4BB5B28A3836A000D27F9 /* RidwanMovieDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4BB7328A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabaseTests" */;
+			buildPhases = (
+				0DD4BB5828A3836A000D27F9 /* Sources */,
+				0DD4BB5928A3836A000D27F9 /* Frameworks */,
+				0DD4BB5A28A3836A000D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD4BB5E28A3836A000D27F9 /* PBXTargetDependency */,
+			);
+			name = RidwanMovieDatabaseTests;
+			productName = RidwanMovieDatabaseTests;
+			productReference = 0DD4BB5C28A3836A000D27F9 /* RidwanMovieDatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DD4BB6528A3836A000D27F9 /* RidwanMovieDatabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4BB7628A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabaseUITests" */;
+			buildPhases = (
+				0DD4BB6228A3836A000D27F9 /* Sources */,
+				0DD4BB6328A3836A000D27F9 /* Frameworks */,
+				0DD4BB6428A3836A000D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD4BB6828A3836A000D27F9 /* PBXTargetDependency */,
+			);
+			name = RidwanMovieDatabaseUITests;
+			productName = RidwanMovieDatabaseUITests;
+			productReference = 0DD4BB6628A3836A000D27F9 /* RidwanMovieDatabaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD4BB4428A38367000D27F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0DD4BB4B28A38367000D27F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0DD4BB5B28A3836A000D27F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0DD4BB4B28A38367000D27F9;
+					};
+					0DD4BB6528A3836A000D27F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0DD4BB4B28A38367000D27F9;
+					};
+				};
+			};
+			buildConfigurationList = 0DD4BB4728A38367000D27F9 /* Build configuration list for PBXProject "RidwanMovieDatabase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DD4BB4328A38367000D27F9;
+			productRefGroup = 0DD4BB4D28A38367000D27F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD4BB4B28A38367000D27F9 /* RidwanMovieDatabase */,
+				0DD4BB5B28A3836A000D27F9 /* RidwanMovieDatabaseTests */,
+				0DD4BB6528A3836A000D27F9 /* RidwanMovieDatabaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD4BB4A28A38367000D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4BB5728A3836A000D27F9 /* Preview Assets.xcassets in Resources */,
+				0DD4BB5428A3836A000D27F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB5A28A3836A000D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB6428A3836A000D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD4BB4828A38367000D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4BB5228A38367000D27F9 /* ContentView.swift in Sources */,
+				0DD4BB5028A38367000D27F9 /* RidwanMovieDatabaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB5828A3836A000D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4BB6128A3836A000D27F9 /* RidwanMovieDatabaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4BB6228A3836A000D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4BB6B28A3836A000D27F9 /* RidwanMovieDatabaseUITests.swift in Sources */,
+				0DD4BB6D28A3836A000D27F9 /* RidwanMovieDatabaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD4BB5E28A3836A000D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD4BB4B28A38367000D27F9 /* RidwanMovieDatabase */;
+			targetProxy = 0DD4BB5D28A3836A000D27F9 /* PBXContainerItemProxy */;
+		};
+		0DD4BB6828A3836A000D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD4BB4B28A38367000D27F9 /* RidwanMovieDatabase */;
+			targetProxy = 0DD4BB6728A3836A000D27F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DD4BB6E28A3836A000D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DD4BB6F28A3836A000D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD4BB7128A3836A000D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RidwanMovieDatabase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DD4BB7228A3836A000D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RidwanMovieDatabase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DD4BB7428A3836A000D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RidwanMovieDatabase.app/RidwanMovieDatabase";
+			};
+			name = Debug;
+		};
+		0DD4BB7528A3836A000D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RidwanMovieDatabase.app/RidwanMovieDatabase";
+			};
+			name = Release;
+		};
+		0DD4BB7728A3836A000D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RidwanMovieDatabase;
+			};
+			name = Debug;
+		};
+		0DD4BB7828A3836A000D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ridwanarvi.RidwanMovieDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RidwanMovieDatabase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD4BB4728A38367000D27F9 /* Build configuration list for PBXProject "RidwanMovieDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4BB6E28A3836A000D27F9 /* Debug */,
+				0DD4BB6F28A3836A000D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4BB7028A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4BB7128A3836A000D27F9 /* Debug */,
+				0DD4BB7228A3836A000D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4BB7328A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4BB7428A3836A000D27F9 /* Debug */,
+				0DD4BB7528A3836A000D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4BB7628A3836A000D27F9 /* Build configuration list for PBXNativeTarget "RidwanMovieDatabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4BB7728A3836A000D27F9 /* Debug */,
+				0DD4BB7828A3836A000D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD4BB4428A38367000D27F9 /* Project object */;
+}
